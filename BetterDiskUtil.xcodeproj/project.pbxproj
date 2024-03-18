@@ -3,12 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8138F4C2BA4087B004AB174 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8138F4B2BA4087B004AB174 /* MainView.swift */; };
+		E8138F4F2BA40950004AB174 /* DiskItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8138F4E2BA40950004AB174 /* DiskItems.swift */; };
+		E8710C012BA4A6C600A72067 /* DiskDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8710C002BA4A6C600A72067 /* DiskDetail.swift */; };
+		E8E753F82BA59E8D00681675 /* disk.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8E753F72BA59E8D00681675 /* disk.plist */; };
+		E8E753FA2BA5A14400681675 /* GetDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E753F92BA5A14400681675 /* GetDisk.swift */; };
+		E8E753FD2BA5B6D800681675 /* disk_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8E753FC2BA5B6D800681675 /* disk_info.plist */; };
+		E8E753FF2BA5B84500681675 /* DiskLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E753FE2BA5B84500681675 /* DiskLists.swift */; };
+		E8E754022BA5C06600681675 /* disk_info3.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8E754002BA5C06600681675 /* disk_info3.plist */; };
+		E8E754032BA5C06600681675 /* disk_info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8E754012BA5C06600681675 /* disk_info2.plist */; };
 		E8FED4C12B9DE7AD00B40620 /* BetterDiskUtilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FED4C02B9DE7AD00B40620 /* BetterDiskUtilApp.swift */; };
-		E8FED4C32B9DE7AD00B40620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FED4C22B9DE7AD00B40620 /* ContentView.swift */; };
 		E8FED4C52B9DE7AE00B40620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FED4C42B9DE7AE00B40620 /* Assets.xcassets */; };
 		E8FED4C92B9DE7AE00B40620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FED4C82B9DE7AE00B40620 /* Preview Assets.xcassets */; };
 		E8FED4D32B9DE7AE00B40620 /* BetterDiskUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FED4D22B9DE7AE00B40620 /* BetterDiskUtilTests.swift */; };
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8138F4B2BA4087B004AB174 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E8138F4E2BA40950004AB174 /* DiskItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskItems.swift; sourceTree = "<group>"; };
+		E8710C002BA4A6C600A72067 /* DiskDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskDetail.swift; sourceTree = "<group>"; };
+		E8E753F72BA59E8D00681675 /* disk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disk.plist; sourceTree = "<group>"; };
+		E8E753F92BA5A14400681675 /* GetDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDisk.swift; sourceTree = "<group>"; };
+		E8E753FC2BA5B6D800681675 /* disk_info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = disk_info.plist; sourceTree = "<group>"; };
+		E8E753FE2BA5B84500681675 /* DiskLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskLists.swift; sourceTree = "<group>"; };
+		E8E754002BA5C06600681675 /* disk_info3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disk_info3.plist; sourceTree = "<group>"; };
+		E8E754012BA5C06600681675 /* disk_info2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disk_info2.plist; sourceTree = "<group>"; };
 		E8FED4BD2B9DE7AD00B40620 /* BetterDiskUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterDiskUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FED4C02B9DE7AD00B40620 /* BetterDiskUtilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterDiskUtilApp.swift; sourceTree = "<group>"; };
-		E8FED4C22B9DE7AD00B40620 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8FED4C42B9DE7AE00B40620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FED4C62B9DE7AE00B40620 /* BetterDiskUtil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterDiskUtil.entitlements; sourceTree = "<group>"; };
 		E8FED4C82B9DE7AE00B40620 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -72,6 +88,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8138F4D2BA4091C004AB174 /* DiskItemsUI */ = {
+			isa = PBXGroup;
+			children = (
+				E8E753F92BA5A14400681675 /* GetDisk.swift */,
+				E8E753FE2BA5B84500681675 /* DiskLists.swift */,
+				E8E753FB2BA5B6A500681675 /* test_plist */,
+				E8138F4E2BA40950004AB174 /* DiskItems.swift */,
+				E8710C002BA4A6C600A72067 /* DiskDetail.swift */,
+			);
+			path = DiskItemsUI;
+			sourceTree = "<group>";
+		};
+		E8E753FB2BA5B6A500681675 /* test_plist */ = {
+			isa = PBXGroup;
+			children = (
+				E8E754012BA5C06600681675 /* disk_info2.plist */,
+				E8E754002BA5C06600681675 /* disk_info3.plist */,
+				E8E753F72BA59E8D00681675 /* disk.plist */,
+				E8E753FC2BA5B6D800681675 /* disk_info.plist */,
+			);
+			path = test_plist;
+			sourceTree = "<group>";
+		};
 		E8FED4B42B9DE7AD00B40620 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +134,12 @@
 		E8FED4BF2B9DE7AD00B40620 /* BetterDiskUtil */ = {
 			isa = PBXGroup;
 			children = (
+				E8138F4D2BA4091C004AB174 /* DiskItemsUI */,
 				E8FED4C02B9DE7AD00B40620 /* BetterDiskUtilApp.swift */,
-				E8FED4C22B9DE7AD00B40620 /* ContentView.swift */,
 				E8FED4C42B9DE7AE00B40620 /* Assets.xcassets */,
 				E8FED4C62B9DE7AE00B40620 /* BetterDiskUtil.entitlements */,
 				E8FED4C72B9DE7AE00B40620 /* Preview Content */,
+				E8138F4B2BA4087B004AB174 /* MainView.swift */,
 			);
 			path = BetterDiskUtil;
 			sourceTree = "<group>";
@@ -209,7 +249,7 @@
 				};
 			};
 			buildConfigurationList = E8FED4B82B9DE7AD00B40620 /* Build configuration list for PBXProject "BetterDiskUtil" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -234,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FED4C92B9DE7AE00B40620 /* Preview Assets.xcassets in Resources */,
+				E8E753F82BA59E8D00681675 /* disk.plist in Resources */,
 				E8FED4C52B9DE7AE00B40620 /* Assets.xcassets in Resources */,
+				E8E753FD2BA5B6D800681675 /* disk_info.plist in Resources */,
+				E8E754032BA5C06600681675 /* disk_info2.plist in Resources */,
+				E8E754022BA5C06600681675 /* disk_info3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FED4C32B9DE7AD00B40620 /* ContentView.swift in Sources */,
 				E8FED4C12B9DE7AD00B40620 /* BetterDiskUtilApp.swift in Sources */,
+				E8E753FA2BA5A14400681675 /* GetDisk.swift in Sources */,
+				E8E753FF2BA5B84500681675 /* DiskLists.swift in Sources */,
+				E8710C012BA4A6C600A72067 /* DiskDetail.swift in Sources */,
+				E8138F4C2BA4087B004AB174 /* MainView.swift in Sources */,
+				E8138F4F2BA40950004AB174 /* DiskItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,15 +485,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.asahiqin.BetterDiskUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -475,15 +523,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.asahiqin.BetterDiskUtil;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -11,7 +11,9 @@ import SwiftUI
 struct BetterDiskUtilApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+        }.commands {
+            SidebarCommands()
         }
     }
 }

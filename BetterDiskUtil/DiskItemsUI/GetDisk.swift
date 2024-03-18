@@ -32,12 +32,16 @@ func get_disk_detail(id:String) -> Dictionary<String,Any>{
     let data = (try? PropertyListSerialization.propertyList(from: disks_text, format: nil) as? Dictionary<String,Any>)!
     return data
 }
-class Disk{
-    var all_disks =  get_all_disks()
-    var whole_disks:Array<String>
-    var all_disks_and_partitions:Array<Dictionary<String,Any>>
-    var main_disk:Array<Dictionary<String,String>>=[]
-    var build_index:Array<Dictionary<String,Any>>=[]
+class Disk: ObservableObject{
+    @Published var all_disks =  get_all_disks()
+    @Published var whole_disks:Array<String>
+    @Published var all_disks_and_partitions:Array<Dictionary<String,Any>>
+    @Published var main_disk=[
+        "in":Array<Dictionary<String,String>>(),
+        "extra":Array<Dictionary<String,String>>(),
+        "disk":Array<Dictionary<String,String>>()
+    ]
+    @Published var build_index:Array<Dictionary<String,Any>>=[]
     init() {
         self.whole_disks = self.all_disks["WholeDisks"] as! Array<String>
         self.all_disks_and_partitions = self.all_disks["AllDisksAndPartitions"] as! Array<Dictionary<String,Any>>
@@ -45,39 +49,36 @@ class Disk{
             let detail = get_disk_detail(id: i)
             if detail["APFSPhysicalStores"] == nil && detail["Internal"] as! Bool{
                 let tmp = [
-                    "type":"in",
                     "id":i,
                     "name":detail["MediaName"] as! String
                 ]
-                main_disk.append(tmp)
+                main_disk["in"]!.append(tmp)
             } else if detail["APFSPhysicalStores"] == nil && detail["BusProtocol"] as! String == "USB"{
                 let tmp = [
                     "type":"extra",
                     "id":i,
                     "name":detail["MediaName"] as! String
                 ]
-                main_disk.append(tmp)
+                main_disk["extra"]!.append(tmp)
             } else if detail["APFSPhysicalStores"] == nil && detail["BusProtocol"] as! String == "Disk Image"{
                 let tmp = [
                     "type":"disk",
                     "id":i,
                     "name":detail["MediaName"] as! String
                 ]
-                main_disk.append(tmp)
+                main_disk["disk"]!.append(tmp)
             }
         }
-        for i in self.main_disk{
-            self.build_index.append(simplify(_id: i["id"]!))
-        }
+        self.build_disks_index()
     }
     func update(){
         self.all_disks = get_all_disks()
         self.whole_disks = self.all_disks["WholeDisks"] as! Array<String>
         self.all_disks_and_partitions = self.all_disks["AllDisksAndPartitions"] as! Array<Dictionary<String,Any>>
-        self.rebuild_disks_index()
+        self.build_disks_index()
     }
-    func rebuild_disks_index(){
-        for i in self.main_disk{
+    func build_disks_index(){
+        for i in self.main_disk["in"]! + self.main_disk["extra"]! + self.main_disk["disk"]!{
             self.build_index.append(simplify(_id: i["id"]!))
         }
     }

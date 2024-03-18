@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct DiskDetail: View {
+    var id:String
+    var detail:Dictionary<String,Any>
+    init(id: String) {
+        self.id = id
+        self.detail = get_disk_detail(id: id)
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            HStack{
+                Text("DeviceIdentifier:")
+                Text(detail["DeviceIdentifier"] as! String)
+            }
+        }
     }
 }
 
 #Preview {
-    DiskDetail()
+    DiskDetail(id: "disk0")
 }

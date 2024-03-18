@@ -2,44 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>APFSContainerReference</key>
+	<string>disk9</string>
+	<key>APFSPhysicalStores</key>
+	<array>
+		<dict>
+			<key>APFSPhysicalStore</key>
+			<string>disk7s2</string>
+		</dict>
+	</array>
 	<key>Bootable</key>
 	<false/>
 	<key>BusProtocol</key>
-	<string>Disk Image</string>
+	<string>USB</string>
 	<key>CanBeMadeBootable</key>
 	<false/>
 	<key>CanBeMadeBootableRequiresDestroy</key>
 	<false/>
 	<key>Content</key>
-	<string>GUID_partition_scheme</string>
+	<string>EF57347C-0000-11AA-AA11-00306543ECAC</string>
 	<key>DeviceBlockSize</key>
-	<integer>512</integer>
+	<integer>4096</integer>
 	<key>DeviceIdentifier</key>
-	<string>disk5</string>
+	<string>disk9</string>
 	<key>DeviceNode</key>
-	<string>/dev/disk5</string>
+	<string>/dev/disk9</string>
 	<key>DeviceTreePath</key>
-	<string>IODeviceTree:/</string>
+	<string>IODeviceTree:/arm-io@10F00000/usb-drd1@2280000/usb-drd1-port-ss@01200000</string>
+	<key>DiskUUID</key>
+	<string>2A78F579-5EAD-4BA1-A253-6B2222A05410</string>
 	<key>Ejectable</key>
 	<true/>
 	<key>EjectableMediaAutomaticUnderSoftwareControl</key>
-	<true/>
+	<false/>
 	<key>EjectableOnly</key>
-	<true/>
+	<false/>
 	<key>FreeSpace</key>
 	<integer>0</integer>
+	<key>Fusion</key>
+	<false/>
 	<key>GlobalPermissionsEnabled</key>
 	<false/>
 	<key>IOKitSize</key>
-	<integer>17412687360</integer>
+	<integer>449961570304</integer>
 	<key>IORegistryEntryName</key>
-	<string>Apple Disk Image Media</string>
+	<string>AppleAPFSMedia</string>
 	<key>Internal</key>
 	<false/>
 	<key>LowLevelFormatSupported</key>
 	<false/>
 	<key>MediaName</key>
-	<string>Disk Image</string>
+	<string>Extreme 55AE</string>
 	<key>MediaType</key>
 	<string>一般</string>
 	<key>MountPoint</key>
@@ -49,7 +62,7 @@
 	<key>OSInternalMedia</key>
 	<false/>
 	<key>ParentWholeDisk</key>
-	<string>disk5</string>
+	<string>disk9</string>
 	<key>PartitionMapPartition</key>
 	<false/>
 	<key>RAIDMaster</key>
@@ -57,9 +70,9 @@
 	<key>RAIDSlice</key>
 	<false/>
 	<key>Removable</key>
-	<true/>
+	<false/>
 	<key>RemovableMedia</key>
-	<true/>
+	<false/>
 	<key>RemovableMediaOrExternalDevice</key>
 	<true/>
 	<key>SMARTDeviceSpecificKeysMayVaryNotGuaranteed</key>
@@ -67,13 +80,15 @@
 	<key>SMARTStatus</key>
 	<string>Not Supported</string>
 	<key>Size</key>
-	<integer>17412687360</integer>
+	<integer>449961570304</integer>
+	<key>SolidState</key>
+	<true/>
 	<key>SupportsGlobalPermissionsDisable</key>
 	<false/>
 	<key>SystemImage</key>
 	<false/>
 	<key>TotalSize</key>
-	<integer>17412687360</integer>
+	<integer>449961570304</integer>
 	<key>VirtualOrPhysical</key>
 	<string>Virtual</string>
 	<key>VolumeName</key>
@@ -83,9 +98,9 @@
 	<key>WholeDisk</key>
 	<true/>
 	<key>Writable</key>
-	<false/>
+	<true/>
 	<key>WritableMedia</key>
-	<false/>
+	<true/>
 	<key>WritableVolume</key>
 	<false/>
 </dict>
