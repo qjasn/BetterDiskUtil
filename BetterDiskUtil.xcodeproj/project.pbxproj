@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E8138F4C2BA4087B004AB174 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8138F4B2BA4087B004AB174 /* MainView.swift */; };
 		E8138F4F2BA40950004AB174 /* DiskItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8138F4E2BA40950004AB174 /* DiskItems.swift */; };
+		E8260EA42BAF28D100F10D0F /* notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8260EA32BAF28D100F10D0F /* notification.swift */; };
 		E8710C012BA4A6C600A72067 /* DiskDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8710C002BA4A6C600A72067 /* DiskDetail.swift */; };
 		E8E753F82BA59E8D00681675 /* disk.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8E753F72BA59E8D00681675 /* disk.plist */; };
 		E8E753FA2BA5A14400681675 /* GetDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E753F92BA5A14400681675 /* GetDisk.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		E8138F4B2BA4087B004AB174 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E8138F4E2BA40950004AB174 /* DiskItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskItems.swift; sourceTree = "<group>"; };
+		E8260EA32BAF28D100F10D0F /* notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notification.swift; sourceTree = "<group>"; };
 		E8710C002BA4A6C600A72067 /* DiskDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskDetail.swift; sourceTree = "<group>"; };
 		E8E753F72BA59E8D00681675 /* disk.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = disk.plist; sourceTree = "<group>"; };
 		E8E753F92BA5A14400681675 /* GetDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDisk.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				E8FED4C62B9DE7AE00B40620 /* BetterDiskUtil.entitlements */,
 				E8FED4C72B9DE7AE00B40620 /* Preview Content */,
 				E8138F4B2BA4087B004AB174 /* MainView.swift */,
+				E8260EA32BAF28D100F10D0F /* notification.swift */,
 			);
 			path = BetterDiskUtil;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				E8E753FF2BA5B84500681675 /* DiskLists.swift in Sources */,
 				E8710C012BA4A6C600A72067 /* DiskDetail.swift in Sources */,
 				E8138F4C2BA4087B004AB174 /* MainView.swift in Sources */,
+				E8260EA42BAF28D100F10D0F /* notification.swift in Sources */,
 				E8138F4F2BA40950004AB174 /* DiskItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

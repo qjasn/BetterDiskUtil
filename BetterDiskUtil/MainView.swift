@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct MainView: View {
-    @StateObject var DisksContorl = Disk()
+    @State var refreshing = false
     var body: some View {
         NavigationView{
-            DiskLists(main_disk: $DisksContorl.main_disk)
+            DiskLists()
         }.toolbar {
             ToolbarItem(placement: .navigation) {
                 Button(action: toggle_toolbar, label: {
@@ -20,13 +20,17 @@ struct MainView: View {
             }
             ToolbarItem(placement: .navigation, content: {
                 Button(action: refesh, label: {
-                    Image(systemName: "arrowshape.up.circle")
-                })
+                    Image(systemName: "arrow.clockwise")
+                }).disabled(refreshing)
             })
         }
     }
     func refesh(){
-        DisksContorl.update()
+        refreshing = true
+        NotificationCenter.default.post(name: DiskUtilNotification.theDiskShouldRefresh, object: true)
+        NotificationCenter.default.addObserver(forName: DiskUtilNotification.didDiskLoadFinished, object: nil, queue: OperationQueue.main){ (note) in
+            refreshing = false
+        }
     }
     
 }

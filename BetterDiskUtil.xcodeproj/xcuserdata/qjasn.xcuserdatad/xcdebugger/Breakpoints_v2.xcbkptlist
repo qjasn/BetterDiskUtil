@@ -20,5 +20,595 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27B24633-9D84-445A-A859-CEBF68063AF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "simplify(_id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECAD244E-7471-4827-A7C7-EC527754548B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "run()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ECAD244E-7471-4827-A7C7-EC527754548B - aef78881d501eea9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "ECAD244E-7471-4827-A7C7-EC527754548B - 42ab8b277c9c8504"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "ECAD244E-7471-4827-A7C7-EC527754548B - b0762710b348a214"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "ECAD244E-7471-4827-A7C7-EC527754548B - 5030152a0bf6b8ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1084">
+               </Location>
+               <Location
+                  uuid = "ECAD244E-7471-4827-A7C7-EC527754548B - 6d73e4f286da1be5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "run()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - c60bed76d0a3c3c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - e986ed0e8bdb9a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - aef78881d501efe3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - b0762710b348a34a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - 5030152a0bf6b94f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - 82ebe904c5db6667"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "partial apply forwarder for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - 8751dc7c81746b4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "45884B87-881B-41C1-ABB1-607EE2A9BEA0 - a713c997d9e2814c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7F3CDD8-D19C-43FF-B773-424278FD95FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/DiskLists.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C7F3CDD8-D19C-43FF-B773-424278FD95FE - bcdb956f64f97005"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #3 @Sendable (Foundation.Notification) -&gt; () in closure #2 () -&gt; () in BetterDiskUtil.DiskLists.body.getter : some"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/DiskLists.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "C7F3CDD8-D19C-43FF-B773-424278FD95FE - 1b9836652dfe6024"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #3 @Sendable (Foundation.Notification) -&gt; () in closure #2 () -&gt; () in BetterDiskUtil.DiskLists.body.getter : some"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/DiskLists.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "C7F3CDD8-D19C-43FF-B773-424278FD95FE - 791d50571d663007"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #3 @Sendable (Foundation.Notification) -&gt; () in closure #2 () -&gt; () in BetterDiskUtil.DiskLists.body.getter : some"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/DiskLists.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C7F3CDD8-D19C-43FF-B773-424278FD95FE - 3b211c9c9192b057"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 @Sendable (Foundation.Notification) -&gt; () in closure #2 () -&gt; () in BetterDiskUtil.DiskLists.body.getter : some"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/DiskLists.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "C7F3CDD8-D19C-43FF-B773-424278FD95FE - bf241138d7f43ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in closure #3 @Sendable (Foundation.Notification) -&gt; () in closure #2 () -&gt; () in BetterDiskUtil.DiskLists.body.getter : some"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/DiskLists.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "C7F3CDD8-D19C-43FF-B773-424278FD95FE - bcdb956f64f97024"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #3 @Sendable (Foundation.Notification) -&gt; () in closure #2 () -&gt; () in BetterDiskUtil.DiskLists.body.getter : some"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/DiskLists.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F4AF566-558B-42DD-9B02-D882AEE7A401"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "run()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F4AF566-558B-42DD-9B02-D882AEE7A401 - b0762710b348a2e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "2F4AF566-558B-42DD-9B02-D882AEE7A401 - 5030152a0bf6b8ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "2F4AF566-558B-42DD-9B02-D882AEE7A401 - 8751dc7c81746ae8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  uuid = "2F4AF566-558B-42DD-9B02-D882AEE7A401 - a713c997d9e280ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "608">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0EE935C-F317-4CCC-98A0-FBCE51934B64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "run()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0EE935C-F317-4CCC-98A0-FBCE51934B64 - c60bed76d0a3c363"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E0EE935C-F317-4CCC-98A0-FBCE51934B64 - e986ed0e8bdb9a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E0EE935C-F317-4CCC-98A0-FBCE51934B64 - aef78881d501efe3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E0EE935C-F317-4CCC-98A0-FBCE51934B64 - 42ab8b277c9c8504"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E0EE935C-F317-4CCC-98A0-FBCE51934B64 - 6d73e4f286da1be5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for closure #2 @Sendable () async -&gt; () in BetterDiskUtil.DiskActive.run() -&gt; ()"
+                  moduleName = "BetterDiskUtil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/File/projects/BetterDiskUtil/BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F3CC372-7FC9-4BE6-999B-B34E278F3A33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "get_disk_detail(id:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F6504C0-E514-4266-9DC1-135690FA26F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "get_disk_detail(id:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2DE7C1E-C61B-4440-A3BC-217B8C8887AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/GetDisk.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "get_disk_detail(id:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59AB5577-D023-4CFD-8D95-3761B7340B5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BetterDiskUtil/DiskItemsUI/DiskItems.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DiskItems"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

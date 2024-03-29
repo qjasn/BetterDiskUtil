@@ -15,10 +15,16 @@ struct DiskDetail: View {
         self.detail = get_disk_detail(id: id)
     }
     var body: some View {
-        ZStack{
-            HStack{
-                Text("DeviceIdentifier:")
-                Text(detail["DeviceIdentifier"] as! String)
+        if detail["error"] == nil{
+            ZStack{
+                HStack{
+                    Text("DeviceIdentifier:")
+                    Text(detail["DeviceIdentifier"] as! String)
+                }
+            }
+        }else{
+            ZStack{
+                Text("Error")
             }
         }
     }

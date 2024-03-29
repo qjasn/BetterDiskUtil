@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class DiskUtilNotification{
+    public static let didDiskLoadFinished = Notification.Name(rawValue: "better_diskutil.diskload.didDiskLoadFinished")
+    public static let theDiskShouldRefresh = Notification.Name(rawValue: "better_diskutil.diskload.theDiskShouldRefresh")
+
+}
